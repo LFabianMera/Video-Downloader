@@ -142,7 +142,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 👨‍💻 Autor
 
-**Luis Fabián Mera**
+**Leiner Fabián Mera**
 
 - GitHub: [@LFabianMera](https://github.com/LFabianMera)
 - Portfolio: [LFabianMera.github.io](https://lfabianmera.github.io)
