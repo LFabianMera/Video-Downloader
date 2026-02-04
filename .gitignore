@@ -27,6 +27,7 @@ wheels/
 # PyInstaller
 *.manifest
 *.spec
+build/
 
 # Virtual Environment
 .venv/
@@ -50,3 +51,7 @@ desktop.ini
 Video-Downloader-Package/
 Video-Downloader-Package.zip
 *.log
+
+# Exclude executable from dist but keep scripts
+dist/*.exe
+dist/Video-Downloader/
