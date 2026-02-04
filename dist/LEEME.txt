@@ -1,0 +1,100 @@
+=====================================================
+   DESCARGADOR DE VIDEOS Y AUDIO
+=====================================================
+
+Aplicacion para descargar videos y audio de multiples plataformas.
+
+PLATAFORMAS SOPORTADAS:
+  - YouTube
+  - TikTok
+  - Facebook
+  - Instagram
+  - Twitter/X
+  - Y muchas mas...
+
+=====================================================
+INSTALACION Y USO
+=====================================================
+
+OPCION 1: INSTALACION AUTOMATICA (Recomendado)
+-----------------------------------------------
+1. Hacer doble clic en "Instalar.bat"
+2. El instalador verificara si FFmpeg esta instalado
+3. Si no esta instalado, te pedira permiso para instalarlo
+4. La aplicacion se iniciara automaticamente
+
+OPCION 2: INSTALACION MANUAL
+-----------------------------------------------
+Si el instalador automatico no funciona:
+
+1. Instalar FFmpeg manualmente:
+   - Opcion A: Ejecutar en PowerShell (como administrador):
+     winget install --id=Gyan.FFmpeg -e
+   
+   - Opcion B: Descargar desde https://ffmpeg.org/download.html
+     y agregar al PATH del sistema
+
+2. Reiniciar la computadora (o al menos la terminal)
+
+3. Hacer doble clic en "Video-Downloader.exe"
+
+=====================================================
+COMO USAR LA APLICACION
+=====================================================
+
+1. Copia la URL del video que quieres descargar
+2. Pegala en el campo "URL del video"
+3. Selecciona el formato:
+   - Video (MP4): Descarga el video completo
+   - Audio (MP3): Solo descarga el audio
+
+4. Elige la calidad:
+   - Mejor calidad: Maxima resolucion disponible
+   - 720p: Alta definicion
+   - 480p: Definicion estandar (mas rapido)
+
+5. Selecciona donde guardar los archivos
+6. Haz clic en "DESCARGAR"
+7. Observa el progreso en el log
+
+=====================================================
+SOLUCIONAR PROBLEMAS
+=====================================================
+
+Problema: "FFmpeg no esta instalado"
+Solucion: Ejecutar "Instalar.bat" o instalar FFmpeg manualmente
+
+Problema: El ejecutable no abre
+Solucion: 
+  1. Verificar que Windows Defender no este bloqueando el archivo
+  2. Hacer clic derecho > Propiedades > Desbloquear (si aparece)
+  3. Ejecutar como administrador
+
+Problema: Error al descargar
+Solucion:
+  1. Verificar que la URL sea correcta
+  2. Verificar conexion a internet
+  3. Algunos videos pueden estar protegidos por copyright
+
+Problema: "JavaScript runtime" warning
+Solucion: Este es solo un aviso, no afecta la descarga
+
+=====================================================
+NOTAS LEGALES
+=====================================================
+
+Esta herramienta debe usarse unicamente para descargar 
+contenido del cual tienes derechos o permiso.
+
+Respeta los terminos de servicio de cada plataforma 
+y las leyes de derechos de autor de tu pais.
+
+=====================================================
+SOPORTE
+=====================================================
+
+Para reportar errores o sugerencias:
+https://github.com/LFabianMera
+
+Version: 1.0
+Fecha: Febrero 2026
